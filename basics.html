@@ -2,17 +2,20 @@
 <html>
     <head>
         <title>Anime</title>
+        
     </head>
     <body>
-        <h1>Naruto</h1>
-        <p>
-            Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.
-        </p>
+        <h1 style="color:blueviolet">Naruto</h1>
+        <div>
+        <section style="background-color:aqua">
+            <b>Naruto</b> is a <strong>Japanese</strong> manga series written and illustrated by <i>>Masashi Kishimoto</i>. <em>It</em> tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.
+        </section>
+        </div>
         <div style="align-content: center;">
             <img src="images/download.jpg" style="align-self: center;margin: auto auto auto 550px;">
         </div>
         
-        <h2>Death Note</h2>
+        <h2 style="background-color: antiquewhite;">Death Note</h2>
         <h3>Dragon Ball</h3>
         <h4>Dexter</h4>
         <h5>Stranger Things</h5>
@@ -67,6 +70,14 @@
             <li>Death Note</li>
             <li>Dragon Ball</li>
         </ol>
+        <dl>
+            <dt>Naruto</dt>
+            <dd>Protagonist</dd>
+            <dt>Sasuke</dt>
+            <dd>Naruto's friend</dd>
+            <dt>Kakashi</dt>
+            <dd>Naruto's sensei</dd>
+        </dl>
         <table border="2">
           <tr>
             <th>S.no</th>
@@ -183,5 +194,50 @@
                 </tr>
             </tbody>
           </table>
+          <form>
+              <fieldset>
+                  <legend>INFO</legend>
+              Enter Username:<br>
+              <input type="text" placeholder="user name" name="user name"><br>
+              Enter password:<br>
+              <input type="password" name="password" ><button onclick="my_fun()">Show</button><br>
+              Enter email:<br>
+              <input type="email" name="email"><br>
+              Female:
+              <input type="radio" name="gender" value="female" checked>
+              Male :
+              <input type="radio" name="gender" value="male"><br>
+              HINDI<input type="checkbox" name="lang">
+              TELUGU<input type="checkbox" name="lang">
+              ENGLISH<input type="checkbox" name="lang"><br>
+              Language:
+              <select name="language">
+                 <option>hindi</option>
+                 <option>telugu</option>
+                 <option>ENGLISH</option>
+              </select><br>
+              <input type="file"><br>
+              <input type="color"><br>
+              <textarea rows="10" cols="100"></textarea><br>
+              <select name="cars" id="cars">
+                <optgroup label="Swedish Cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </optgroup>
+              </select><br>
+              <button type="submit">Submit</button>
+              </fieldset>
+          </form>
+          <article>Just checking how article tag looks like!</article>
+          <audio controls>
+              <source src="audio/Linkin Park - Numb (Norda Remix) AMG vs MPower Showtime LIMMA.mp3" type="audio/mp3">
+          </audio>
+          <video controls>
+              <source src="video/Naruto  001 - Enter Naruto Uzumaki.mkv" type="video/mkv">
+          </video>
     </body>
 </html>
